@@ -1,0 +1,34 @@
+{
+  "name": "s2speak",
+  "version": "0.1.0",
+  "description": "Highlight the text and press S to speak",
+  "main": "dist/index.min.js",
+  "scripts": {
+    "dev": "webpack-dev-server --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js",
+    "deploy": "npm run build && gh-pages -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "speak",
+    "web speech api"
+  ],
+  "author": {
+    "name": "Pacharapol Withayasakpunt",
+    "email": "patarapolw@gmail.com",
+    "url": "https://polvcode.dev"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "copy-webpack-plugin": "^5.0.4",
+    "gh-pages": "^2.1.1",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.3",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.8.0"
+  },
+  "engines": {
+    "npm": "^6.10.0"
+  }
+}
