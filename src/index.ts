@@ -5,7 +5,7 @@ const script = document.currentScript || (() => {
 const q = new URL(script.getAttribute("src") || "", location.href).searchParams;
 
 window.addEventListener("keydown", (ev) => {
-  if (ev.key === q.get("key") || "s") {
+  if (ev.key === (q.get("key") || "s")) {
     const s = window.getSelection()!.toString();
     if (s) {
       speak(s);

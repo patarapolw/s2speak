@@ -28,3 +28,7 @@ js:
   - https://patarapolw.github.io/s2speak/index.min.js
 ---
 ```
+
+## Known bugs
+
+I have to press "s" at least twice for the speaking to work.
