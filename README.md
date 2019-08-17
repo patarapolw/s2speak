@@ -25,7 +25,7 @@ I plan to use this with <https://reveal-md.herokuapp.com>, and add YAML front ma
 ```yaml
 ---
 js:
-  - https://patarapolw.github.io/s2speak/index.min.js
+  - https://patarapolw.github.io/s2speak/index.min.js?key=x
 ---
 ```
 
