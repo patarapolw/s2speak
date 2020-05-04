@@ -26,15 +26,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/languages/yaml.min.js"></script>
 
   <script src="https://cdn.jsdelivr.net/npm/showdown@1.9.0/dist/showdown.min.js"></script>
-  <script>
-    fetch("README.md").then((r) => r.text()).then((r) => {
-      const converter = new showdown.Converter();
-      converter.setFlavor("github");
-      document.getElementById("App").innerHTML = converter.makeHtml(r);
-      hljs.initHighlightingOnLoad();
-    })
-  </script>
-  <script src="index.min.js"></script>
+  <script src="main.js"></script>
+  <script src="speak.ts"></script>
 </body>
 
 </html>

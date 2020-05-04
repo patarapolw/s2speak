@@ -3,7 +3,7 @@
 Highlight the text and press "s" to speak; after including a script tag.
 
 ```html
-<script src="https://patarapolw.github.io/s2speak/index.min.js">
+<script src="https://patarapolw.github.io/s2speak/speak.js">
 ```
 
 Try highlighting this text, and press "s"
@@ -16,7 +16,6 @@ Please set the options in the script's query string. All are optional.
 
 - key -- Keyboard trigger to speak (default: `s`)
 - lang -- Speaking language, according to `speechSynthesis.getVoices()`, optionally two characters. Will be fixed for mobile, which `speechSynthesis.getVoices()` might yield different results.
-- rate -- Rate of speech
 
 ## Usage
 
@@ -25,10 +24,6 @@ I plan to use this with <https://reveal-md.herokuapp.com>, and add YAML front ma
 ```yaml
 ---
 js:
-  - https://patarapolw.github.io/s2speak/index.min.js?key=x
+  - https://patarapolw.github.io/s2speak/speak.js?key=x
 ---
 ```
-
-## Known bugs
-
-I have to press "s" at least twice for the speaking to work.
