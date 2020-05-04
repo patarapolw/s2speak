@@ -1,0 +1,7 @@
+<h1 id="s2speak">s2speak</h1><p>Highlight the text and press &quot;s&quot; to speak; after including a script tag.</p><pre><code class="language-html">&lt;script src=&quot;https://patarapolw.github.io/s2speak/speak.js&quot;&gt;</code></pre><p>Try highlighting this text, and press &quot;s&quot;</p><p>范例文字，请取代此段落文字。此段落文字为范例文字内容，请务必取代。范例文字，请取代此段落文字。此段落文字为范例文字内容，请务必取代。范例文字，请取代此段落文字。此段落文字为范例文字内容，请务必取代。范例文字，请取代此段落文字。此段落文字为范例文字内容，请务必取代。</p><h2 id="options">Options</h2><p>Please set the options in the script&#39;s query string. All are optional.</p><ul>
+<li>key -- Keyboard trigger to speak (default: <code>s</code>)</li>
+<li>lang -- Speaking language, according to <code>speechSynthesis.getVoices()</code>, optionally two characters. Will be fixed for mobile, which <code>speechSynthesis.getVoices()</code> might yield different results.</li>
+</ul><h2 id="usage">Usage</h2><p>I plan to use this with <a href="https://reveal-md.herokuapp.com">https://reveal-md.herokuapp.com</a>, and add YAML front matter,</p><pre><code class="language-yaml">---
+js:
+  - https://patarapolw.github.io/s2speak/speak.js?key=x
+---</code></pre>
