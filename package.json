@@ -20,7 +20,7 @@
   "license": "MIT",
   "devDependencies": {
     "gh-pages": "^2.2.0",
-    "marked": "^1.0.0",
+    "marked": "^4.0.10",
     "parcel": "^1.12.4",
     "rimraf": "^3.0.2",
     "typescript": "^3.8.3"
